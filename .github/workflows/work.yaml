@@ -23,6 +23,7 @@ jobs:
             - name: npm install
               run: npm install
             - run: all.bat
+              shell: cmd
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
