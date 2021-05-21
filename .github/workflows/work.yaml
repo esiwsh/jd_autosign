@@ -22,13 +22,8 @@ jobs:
                 node-version: '12.x'
             - name: npm install
               run: npm install
-<<<<<<< .mine
-            - run: all.bat
-
-=======
             - run: all.bat
               shell: cmd
->>>>>>> .theirs
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
